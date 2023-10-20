@@ -1,13 +1,23 @@
 import React from 'react';
 import './App.css';
+import NavBar from "./components/navbar/NavBar";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./screens/Home";
+import { Experience } from "./screens/Experience";
+import { Projects } from "./screens/Projects";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello, World!!!!!!!!</h1>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <div className="pages">
+        <Routes>
+          <Route path="/personal-portfolio" element={<Home/>}/>
+          <Route path="/experience" element={<Experience/>}/>
+          <Route path="/projects" element={<Projects/>}/>
+        </Routes>
+      </div>
+    </>
   );
 }
 
