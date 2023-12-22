@@ -21,10 +21,6 @@ function NavBar() {
             </span>
           </NavLink>
 
-          <div className="mode-button" onClick={toggleDarkMode}>
-            {isDarkMode ? <FaSun /> : <FaMoon />}
-          </div>
-
           <ul className={click ? "nav-menu" : "nav-menu active"}>          
             <li className="nav-item">
               <NavLink
@@ -62,7 +58,7 @@ function NavBar() {
               </NavLink>
             </li>
           </ul>
-            
+
           <div className="nav-icon" onClick={handleClick}>
               {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
               {click ? (
@@ -74,6 +70,10 @@ function NavBar() {
                   <HamburgetMenuClose />
                 </span>
               )}
+          </div>
+
+          <div className="mode-button" onClick={toggleDarkMode}>
+            {isDarkMode ? <FaSun /> : <FaMoon />}
           </div>
         </div>
       </nav>

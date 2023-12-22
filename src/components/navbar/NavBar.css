@@ -93,10 +93,10 @@
 
 .mode-button {
   color: #f5b921;
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
   cursor: pointer;
-  font-size: 20px;
-  flex-grow: 70;
+  font-size: 18px;
   display: flex;
 }
 
