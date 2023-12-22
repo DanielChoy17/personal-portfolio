@@ -11,7 +11,7 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/personal-portfolio" className="nav-logo">
+          <NavLink exact to="/" className="nav-logo">
             <span>Daniel's Portfolio</span>
             <span className="icon">
               <CodeIcon />
@@ -22,7 +22,7 @@ function NavBar() {
           <li className="nav-item">
               <NavLink
                 exact
-                to="/personal-portfolio"
+                to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -42,6 +42,7 @@ function NavBar() {
                 Experience
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
                 exact
