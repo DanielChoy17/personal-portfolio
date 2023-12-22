@@ -91,6 +91,15 @@
   height: 2rem;
 }
 
+.mode-button {
+  color: #f5b921;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  flex-grow: 30;
+  display: flex;
+}
+
 @media screen and (max-width: 960px) {
   .nav-menu {
     display: flex;
