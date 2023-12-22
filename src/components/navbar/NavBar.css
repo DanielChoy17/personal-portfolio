@@ -98,6 +98,8 @@
   font-size: 20px;
   flex-grow: 30;
   display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 @media screen and (max-width: 960px) {
