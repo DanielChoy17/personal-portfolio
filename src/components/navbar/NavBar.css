@@ -1,3 +1,4 @@
+/*Light Mode CSS*/
 .navbar {
   background-color: #1f5156;
   height: 80px;
@@ -149,5 +150,162 @@
     height: 2rem;
     cursor: pointer;
     color: #ffdd40;
+  }
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/*Dark Mode CSS*/
+.dark-navbar {
+  background-color: #000000;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.dark-nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  max-width: 1500px;
+  position: relative;
+}
+
+.dark-nav-logo {
+  color: #59c0a8;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  flex-grow: 1;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.dark-nav-logo .dark-icon {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 16px;
+}
+
+.dark-nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.dark-nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+
+.dark-nav-item {
+  line-height: 40px;
+  margin-right: 1rem;
+}
+
+.dark-nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.dark-nav-item:hover:after {
+  width: 100%;
+  background: #59c0a8;
+}
+
+.dark-nav-item .active {
+  color: #59c0a8;
+  border: 1px solid #59c0a8;
+}
+
+.dark-nav-icon {
+  display: none;
+  color: #59c0a8;
+}
+
+.dark-nav-icon .dark-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.dark-mode-button {
+  color: #59c0a8;
+  margin-left: 0px;
+  margin-right: 0px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  border: 2px solid #59c0a8;
+  border-radius: 50%;
+  padding: 3px;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .dark-nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .dark-nav-menu.active {
+    background: #000000;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .dark-nav-item .active {
+    color: #59c0a8;
+    border: none;
+  }
+  .dark-nav-links {
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
+  }
+
+  .dark-nav-logo .dark-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .dark-nav-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-100%, -50%);
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    color: #59c0a8;
   }
 }

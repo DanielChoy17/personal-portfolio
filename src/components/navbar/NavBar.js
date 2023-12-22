@@ -12,46 +12,46 @@ function NavBar() {
   const toggleDarkMode = () => setDarkMode(!isDarkMode);
   return (
     <>
-      <nav className="navbar">
-        <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+      <nav className={isDarkMode ? 'dark-navbar' : 'navbar'}>
+        <div className={isDarkMode ? 'dark-nav-container' : 'nav-container'}>
+          <NavLink exact to="/" className={isDarkMode ? 'dark-nav-logo' : 'nav-logo'}>
             <span>Daniel's Portfolio</span>
-            <span className="icon">
+            <span className={isDarkMode ? 'dark-icon' : 'icon'}>
               <CodeIcon />
             </span>
           </NavLink>
 
-          <ul className={click ? "nav-menu" : "nav-menu active"}>          
-            <li className="nav-item">
+          <ul className={`${isDarkMode ? 'dark-' : ''}${click ? 'nav-menu' : 'nav-menu active'}`}>         
+            <li className={isDarkMode ? 'dark-nav-item' : 'nav-item'}>
               <NavLink
                 exact
                 to="/"
                 activeClassName="active"
-                className="nav-links"
+                className={isDarkMode ? 'dark-nav-links' : 'nav-links'}
                 onClick={handleClick}
               >
                 Home
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            <li className={isDarkMode ? 'dark-nav-item' : 'nav-item'}>
               <NavLink
                 exact
                 to="/experience"
                 activeClassName="active"
-                className="nav-links"
+                className={isDarkMode ? 'dark-nav-links' : 'nav-links'}
                 onClick={handleClick}
               >
                 Experience
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            <li className={isDarkMode ? 'dark-nav-item' : 'nav-item'}>
               <NavLink
                 exact
                 to="/projects"
                 activeClassName="active"
-                className="nav-links"
+                className={isDarkMode ? 'dark-nav-links' : 'nav-links'}
                 onClick={handleClick}
               >
                 Projects
@@ -59,21 +59,21 @@ function NavBar() {
             </li>
           </ul>
 
-          <div className="nav-icon" onClick={handleClick}>
+          <div className={isDarkMode ? 'dark-nav-icon' : 'nav-icon'} onClick={handleClick}>
               {/* <i className={click ? "fas fa-times" : "fas fa-bars"}></i> */}
               {click ? (
-                <span className="icon">
+                <span className={isDarkMode ? 'dark-icon' : 'icon'}>
                   <HamburgetMenuOpen />{" "}
                 </span>
               ) : (
-                <span className="icon">
+                <span className={isDarkMode ? 'dark-icon' : 'icon'}>
                   <HamburgetMenuClose />
                 </span>
               )}
           </div>
 
-          <div className="mode-button" onClick={toggleDarkMode}>
-            {isDarkMode ? <FaSun /> : <FaMoon />}
+          <div className={isDarkMode ? 'dark-mode-button' : 'mode-button'} onClick={toggleDarkMode}>
+            {isDarkMode ? <FaMoon /> : <FaSun />}
           </div>
         </div>
       </nav>
