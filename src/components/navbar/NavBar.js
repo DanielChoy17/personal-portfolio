@@ -3,13 +3,14 @@ import { NavLink } from "react-router-dom";
 import { FaSun, FaMoon } from "react-icons/fa";
 import "./NavBar.css";
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
+import { useDarkMode } from "../../context/DarkModeContext";
 
 function NavBar() {
   const [click, setClick] = useState(true);
-  const [isDarkMode, setDarkMode] = useState(false);
-
   const handleClick = () => setClick(!click);
-  const toggleDarkMode = () => setDarkMode(!isDarkMode);
+
+  const { isDarkMode, toggleDarkMode } = useDarkMode();
+  
   return (
     <>
       <nav className={isDarkMode ? 'dark-navbar' : 'navbar'}>
