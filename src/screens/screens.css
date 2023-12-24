@@ -1,8 +1,4 @@
 /*Light Mode CSS*/
-.background {
-    background-color: #ffffff;
-}
-
 .title {
     color: #000000;
 }
@@ -10,10 +6,6 @@
 /*--------------------------------------------------------------------------------------*/
 
 /*Dark Mode CSS*/
-.dark-background {
-    background-color: #000000;
-}
-
 .dark-title {
     color: #ffffff;
 }
