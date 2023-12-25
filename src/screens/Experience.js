@@ -10,7 +10,7 @@ export const Experience = () => {
     }, [isDarkMode]);
 
     return (
-      <div>
+      <div className="container">
         <h1 className={isDarkMode ? 'dark-title' : 'title'}>
           Experience
         </h1>

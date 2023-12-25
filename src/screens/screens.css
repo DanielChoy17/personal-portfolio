@@ -1,3 +1,18 @@
+/*General Format CSS*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
 /*Light Mode CSS*/
 .title {
     color: #000000;

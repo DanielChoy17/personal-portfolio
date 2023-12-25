@@ -10,7 +10,7 @@ export const Projects = () => {
     }, [isDarkMode]);
 
     return (
-      <div>
+      <div className="container">
         <h1 className={isDarkMode ? 'dark-title' : 'title'}>
           Projects
         </h1>
