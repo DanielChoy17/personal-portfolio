@@ -74,12 +74,12 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #316685;
+  background: #FFA69E;
 }
 
 .nav-item .active {
-  color: #316685;
-  border: 1px solid #316685;
+  color: #FF686B;
+  border: 1px solid #FF686B;
 }
 
 .nav-icon {
@@ -127,7 +127,7 @@
     z-index: 1;
   }
   .nav-item .active {
-    color: #316685;
+    color: #FF686B;
     border: none;
   }
   .nav-links {
