@@ -59,7 +59,7 @@
     padding-bottom: 40px;
   }
   
-  .dark-section::before {
+.dark-section::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -68,4 +68,41 @@
     width: 700px; /* Adjust this value to set the length of the colored portion */
     height: 2px;
     background-color: #59c0a8;
+}
+
+/* Rotating Gradient Section Separator */
+/*.dark-section {
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%; 
+      transform: translateX(-50%);
+      width: 700px;
+      height: 2px;
+      background: linear-gradient(
+        60deg,
+        hsl(224, 85%, 66%),
+        hsl(269, 85%, 66%),
+        hsl(314, 85%, 66%),
+        hsl(359, 85%, 66%),
+        hsl(44, 85%, 66%),
+        hsl(89, 85%, 66%),
+        hsl(134, 85%, 66%),
+        hsl(179, 85%, 66%)
+      );
+      background-size: 300% 300%;
+      animation: moveGradient 4s alternate infinite;
+    }
   }
+  
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }*/
