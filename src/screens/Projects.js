@@ -11,9 +11,23 @@ export const Projects = () => {
 
     return (
       <div className="container">
-        <h1 className={isDarkMode ? 'dark-title' : 'title'}>
-          Projects
-        </h1>
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+            Project
+          </h1>
+          <p className={isDarkMode ? 'dark-content' : 'content'}>
+            Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </section>
+
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+            Project
+          </h1>
+          <p className={isDarkMode ? 'dark-content' : 'content'}>
+            Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </section>
       </div>
     );
 };
