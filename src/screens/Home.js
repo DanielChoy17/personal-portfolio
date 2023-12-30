@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./screens.css";
 import { useDarkMode } from "../context/DarkModeContext";
+import { Socials } from "../components/socials/Socials";
 
 export const Home = () => {
     const { isDarkMode } = useDarkMode();
@@ -29,6 +30,8 @@ export const Home = () => {
             Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </section>
+
+        <Socials/>
       </div>
     );
 };
