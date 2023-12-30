@@ -36,7 +36,7 @@
     bottom: 0;
     left: 50%; /* Adjust this value to set the starting point of the colored portion */
     transform: translateX(-50%); /* Center the colored portion */
-    width: 450px; /* Adjust this value to set the length of the colored portion */
+    width: 300px; /* Adjust this value to set the length of the colored portion */
     height: 2px;
     background-color: #FFA69E;
   }
@@ -65,7 +65,7 @@
     bottom: 0;
     left: 50%; /* Adjust this value to set the starting point of the colored portion */
     transform: translateX(-50%); /* Center the colored portion */
-    width: 450px; /* Adjust this value to set the length of the colored portion */
+    width: 300px; /* Adjust this value to set the length of the colored portion */
     height: 2px;
     background-color: #59c0a8;
 }
