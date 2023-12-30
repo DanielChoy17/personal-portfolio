@@ -68,7 +68,7 @@
 
 .nav-item {
   line-height: 40px;
-  margin-right: 1rem;
+  margin-right: 2.5rem;
 }
 
 .nav-item:after {
@@ -252,7 +252,7 @@
 
 .dark-nav-item {
   line-height: 40px;
-  margin-right: 1rem;
+  margin-right: 2.5rem;
 }
 
 .dark-nav-item:after {
