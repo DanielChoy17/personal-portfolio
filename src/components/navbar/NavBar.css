@@ -104,7 +104,7 @@
 .mode-button {
   color: #316685;
   margin-left: 0px;
-  margin-right: 3px;
+  margin-right: 4px;
   cursor: pointer;
   font-size: 14px;
   display: flex;
@@ -288,7 +288,7 @@
 .dark-mode-button {
   color: #59c0a8;
   margin-left: 0px;
-  margin-right: 3px;
+  margin-right: 4px;
   cursor: pointer;
   font-size: 14px;
   display: flex;
