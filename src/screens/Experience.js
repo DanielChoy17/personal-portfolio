@@ -13,21 +13,25 @@ export const Experience = () => {
     return (
       <div className="container">
         <section className={isDarkMode ? 'dark-section' : 'section'}>
-          <h1 className={isDarkMode ? 'dark-title' : 'title'}>
-            Experience
-          </h1>
-          <p className={isDarkMode ? 'dark-content' : 'content'}>
-            Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <div className="text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Experience
+            </h1>
+            <p className={isDarkMode ? 'dark-content' : 'content'}>
+              Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
         </section>
 
         <section className={isDarkMode ? 'dark-section' : 'section'}>
-          <h1 className={isDarkMode ? 'dark-title' : 'title'}>
-            Experience
-          </h1>
-          <p className={isDarkMode ? 'dark-content' : 'content'}>
-            Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          <div className="text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Experience
+            </h1>
+            <p className={isDarkMode ? 'dark-content' : 'content'}>
+              Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
         </section>
 
         <Socials/>

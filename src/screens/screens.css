@@ -12,6 +12,21 @@
     margin: 70px;
 }
 
+.text-container {
+  flex: 1;
+  padding: 30px;
+}
+
+.picture-container {
+  flex: 1;
+  padding: 30px;
+}
+
+.me-picture {
+  width: 325px;
+  height: 450px;
+}
+
 /*--------------------------------------------------------------------------------------*/
 
 /*Light Mode CSS*/
@@ -24,6 +39,7 @@
 }
 
 .section {
+    display: flex;
     text-align: center;
     position: relative;
     margin-bottom: 80px;
@@ -41,6 +57,22 @@
     background-color: #FFA69E;
   }
 
+  @media screen and (max-width: 800px) {
+    .section {
+      flex-direction: column-reverse;
+    }
+  
+    .text-container {
+      padding: 0;
+      text-align: center;
+    }
+    
+    .picture-container {
+      padding: 0;
+      text-align: center;
+    }
+  }
+
 /*--------------------------------------------------------------------------------------*/
 
 /*Dark Mode CSS*/
@@ -53,6 +85,7 @@
 }
 
 .dark-section {
+    display: flex;
     text-align: center;
     position: relative;
     margin-bottom: 80px;
@@ -68,6 +101,22 @@
     width: 300px; /* Adjust this value to set the length of the colored portion */
     height: 2px;
     background-color: #59c0a8;
+}
+
+@media screen and (max-width: 800px) {
+  .dark-section {
+    flex-direction: column-reverse;
+  }
+
+  .text-container {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .picture-container {
+    padding: 0;
+    text-align: center;
+  }
 }
 
 /* Rotating Gradient Section Separator */
