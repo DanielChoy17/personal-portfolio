@@ -3,9 +3,17 @@ import "./screens.css";
 import { useDarkMode } from "../context/DarkModeContext";
 import { Socials } from "../components/socials/Socials";
 import MePicture from "./MePicture.jpg";
+import Resume from "./Resume - Daniel Choy.pdf";
 
 export const Home = () => {
     const { isDarkMode } = useDarkMode();
+
+    const handleResumeClick = () => {
+      const newWindow = window.open(Resume, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
 
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
@@ -22,6 +30,7 @@ export const Home = () => {
             <p className={isDarkMode ? 'dark-content' : 'content'}>
               Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
+            <button className="button" onClick={handleResumeClick}>My Resume</button>
           </div>
           
           <div className="picture-container">
