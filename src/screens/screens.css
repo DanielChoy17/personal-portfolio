@@ -27,25 +27,6 @@
   height: 450px;
 }
 
-.button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  border: 2px solid #316685; /* Border color */
-  color: #316685; /* Text color */
-  background-color: transparent; /* Background color */
-  border-radius: 10px; /* Border radius */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
-
-  /* Add hover effect */
-  &:hover {
-    background-color: #316685; /* Hover background color */
-    color: #ffffff; /* Hover text color */
-  }
-}
-
 /*--------------------------------------------------------------------------------------*/
 
 /*Light Mode CSS*/
@@ -74,6 +55,25 @@
     width: 300px; /* Adjust this value to set the length of the colored portion */
     height: 2px;
     background-color: #FFA69E;
+  }
+
+  .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #316685; /* Border color */
+    color: #316685; /* Text color */
+    background-color: transparent; /* Background color */
+    border-radius: 10px; /* Border radius */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  
+    /* Add hover effect */
+    &:hover {
+      background-color: #316685; /* Hover background color */
+      color: #ffffff; /* Hover text color */
+    }
   }
 
   @media screen and (max-width: 800px) {
@@ -120,6 +120,25 @@
     width: 300px; /* Adjust this value to set the length of the colored portion */
     height: 2px;
     background-color: #59c0a8;
+}
+
+.dark-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #59c0a8; /* Border color */
+  color: #59c0a8; /* Text color */
+  background-color: transparent; /* Background color */
+  border-radius: 10px; /* Border radius */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+
+  /* Add hover effect */
+  &:hover {
+    background-color: #59c0a8; /* Hover background color */
+    color: #000000; /* Hover text color */
+  }
 }
 
 @media screen and (max-width: 800px) {

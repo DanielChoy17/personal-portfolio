@@ -30,7 +30,7 @@ export const Home = () => {
             <p className={isDarkMode ? 'dark-content' : 'content'}>
               Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button className="button" onClick={handleResumeClick}>My Resume</button>
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleResumeClick}>My Resume</button>
           </div>
           
           <div className="picture-container">
