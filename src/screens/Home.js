@@ -23,7 +23,7 @@ export const Home = () => {
     return (
       <div className="container">
         <section className={isDarkMode ? 'dark-section' : 'section'}>
-          <div className="text-container">
+          <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
               Home
             </h1>
