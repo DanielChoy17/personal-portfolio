@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import "./screens.css";
 import { useDarkMode } from "../context/DarkModeContext";
 import { Socials } from "../components/socials/Socials";
-import MePicture from "./MePicture.jpg";
-import Resume from "./Resume - Daniel Choy.pdf";
+import MePicture from "../assets/MePicture.jpg";
+import Resume from "../assets/Resume - Daniel Choy.pdf";
 
 export const Home = () => {
     const { isDarkMode } = useDarkMode();

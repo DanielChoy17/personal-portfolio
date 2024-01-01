@@ -2,7 +2,7 @@ import "./Socials.css";
 import { useDarkMode } from "../../context/DarkModeContext";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import GoogleIcon from "./GoogleIcon.png";
+import GoogleIcon from "../../assets/GoogleIcon.png";
 
 export const Socials = () => {
     const { isDarkMode } = useDarkMode();
