@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./screens.css";
 import { useDarkMode } from "../context/DarkModeContext";
 import { Socials } from "../components/socials/Socials";
+import { LanguagesList } from "../components/languages/LanguagesIcons";
 import MePicture from "../assets/MePicture.jpg";
 import Resume from "../assets/Resume - Daniel Choy.pdf";
 
@@ -48,6 +49,8 @@ export const Home = () => {
             </p>
           </div>
         </section>
+
+        <LanguagesList/>
 
         <Socials/>
       </div>
