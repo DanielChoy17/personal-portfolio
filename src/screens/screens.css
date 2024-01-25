@@ -39,6 +39,7 @@
 /*Light Mode CSS*/
 .title {
     color: #000000;
+    margin-bottom: 10px;
 }
 
 .content {
@@ -106,6 +107,7 @@
 /*Dark Mode CSS*/
 .dark-title {
     color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .dark-content {

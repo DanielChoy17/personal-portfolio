@@ -50,7 +50,13 @@ export const Home = () => {
           </div>
         </section>
 
-        <LanguagesList/>
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <LanguagesList/>
+
+          <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Programming Languages
+          </h1>
+        </section>
 
         <Socials/>
       </div>
