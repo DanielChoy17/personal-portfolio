@@ -42,20 +42,28 @@ export const Home = () => {
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
-              Home
+              Languages I Speak
             </h1>
-            <p className={isDarkMode ? 'dark-content' : 'content'}>
-              Your content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
+
+            <div className="languages-container">
+              <p className={isDarkMode ? 'dark-content' : 'content'}>
+                ⭐English
+              </p>
+              <p className={isDarkMode ? 'dark-content' : 'content'}>
+                ⭐Spanish
+              </p>
+            </div>
           </div>
         </section>
 
         <section className={isDarkMode ? 'dark-section' : 'section'}>
-          <LanguagesList/>
+          <div className="text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+                Programming Languages
+            </h1>
 
-          <h1 className={isDarkMode ? 'dark-title' : 'title'}>
-              Programming Languages
-          </h1>
+            <LanguagesList/>
+          </div>
         </section>
 
         <Socials/>

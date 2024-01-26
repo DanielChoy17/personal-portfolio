@@ -34,6 +34,14 @@
   height: 450px;
 }
 
+.languages-container {
+  display: flex;
+}
+
+.languages-container p:first-child {
+  margin-right: 50px;
+}
+
 /*--------------------------------------------------------------------------------------*/
 
 /*Light Mode CSS*/
@@ -51,7 +59,7 @@
     text-align: center;
     position: relative;
     margin-bottom: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
   
   .section::before {
@@ -67,6 +75,7 @@
 
   .button {
     margin-top: 20px;
+    margin-bottom: 30px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -119,7 +128,7 @@
     text-align: center;
     position: relative;
     margin-bottom: 80px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
   }
   
 .dark-section::before {
@@ -135,6 +144,7 @@
 
 .dark-button {
   margin-top: 20px;
+  margin-bottom: 30px;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
