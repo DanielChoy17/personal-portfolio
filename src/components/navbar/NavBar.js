@@ -74,6 +74,18 @@ function NavBar() {
             <li className={isDarkMode ? 'dark-nav-item' : 'nav-item'}>
               <NavLink
                 exact
+                to="/skills"
+                activeClassName="active"
+                className={isDarkMode ? 'dark-nav-links' : 'nav-links'}
+                onClick={handleClick}
+              >
+                Skills
+              </NavLink>
+            </li>
+
+            <li className={isDarkMode ? 'dark-nav-item' : 'nav-item'}>
+              <NavLink
+                exact
                 to="/funwithapis"
                 activeClassName="active"
                 className={isDarkMode ? 'dark-nav-links' : 'nav-links'}

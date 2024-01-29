@@ -34,12 +34,17 @@
   height: 450px;
 }
 
-.languages-container {
+.bullets-container {
   display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-.languages-container p:first-child {
-  margin-right: 50px;
+.multiple-bullets-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -52,6 +57,7 @@
 
 .content {
     color: #333333;
+    margin-bottom: 15px;
 }
 
 .section {
@@ -121,6 +127,7 @@
 
 .dark-content {
     color: #b9b3b3;
+    margin-bottom: 15px;
 }
 
 .dark-section {
