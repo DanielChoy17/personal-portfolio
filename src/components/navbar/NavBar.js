@@ -83,7 +83,7 @@ function NavBar() {
               </NavLink>
             </li>
 
-            <li className={isDarkMode ? 'dark-nav-item' : 'nav-item'}>
+            {/* <li className={isDarkMode ? 'dark-nav-item' : 'nav-item'}>
               <NavLink
                 exact
                 to="/funwithapis"
@@ -93,7 +93,7 @@ function NavBar() {
               >
                 Fun w/ APIs
               </NavLink>
-            </li>
+            </li> */}
           </ul>
 
           <div className={isDarkMode ? 'dark-nav-icon' : 'nav-icon'} onClick={handleClick}>
