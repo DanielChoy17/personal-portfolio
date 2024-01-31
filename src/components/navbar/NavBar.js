@@ -110,7 +110,7 @@ function NavBar() {
           </div>
 
           <div className={isDarkMode ? 'dark-mode-button' : 'mode-button'} onClick={toggleDarkMode}>
-            {isDarkMode ? <FaMoon /> : <FaSun />}
+            {isDarkMode ? <FaSun /> :  <FaMoon />}
           </div>
         </div>
       </nav>
