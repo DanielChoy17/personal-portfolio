@@ -7,6 +7,7 @@ import CIcon from "../../assets/langIcons/C.png";
 import CPlusPlusIcon from "../../assets/langIcons/CPlusPlus.png";
 import GoIcon from "../../assets/langIcons/Go.png";
 import JavaScriptIcon from "../../assets/langIcons/JavaScript.png";
+import ReactNativeIcon from "../../assets/langIcons/ReactNative.png";
 import PostgreSQLIcon from "../../assets/langIcons/PostgreSQL.png";
 import HTMLIcon from "../../assets/langIcons/HTML.png";
 import CSSIcon from "../../assets/langIcons/CSS.png";
@@ -20,6 +21,7 @@ const iconData = [
   { name: "C++", icon: CPlusPlusIcon },
   { name: "Golang", icon: GoIcon },
   { name: "JavaScript", icon: JavaScriptIcon },
+  { name: "React Native", icon: ReactNativeIcon },
   { name: "PostgreSQL", icon: PostgreSQLIcon },
   { name: "HTML", icon: HTMLIcon },
   { name: "CSS", icon: CSSIcon },
