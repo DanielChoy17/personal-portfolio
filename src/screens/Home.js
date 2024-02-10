@@ -3,7 +3,7 @@ import "./screens.css";
 import { useDarkMode } from "../context/DarkModeContext";
 import { Socials } from "../components/socials/Socials";
 import MePicture from "../assets/MePicture.jpg";
-import Resume from "../assets/Resume - Daniel Choy.pdf";
+import Resume from "../assets/documents/Resume - Daniel Choy.pdf";
 
 export const Home = () => {
     const { isDarkMode } = useDarkMode();
