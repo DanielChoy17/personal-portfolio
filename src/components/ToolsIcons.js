@@ -6,38 +6,38 @@ import VSCodeIcon from "../assets/toolIcons/VSCode.png";
 import GithubIcon from "../assets/toolIcons/Github.png";
 import GitIcon from "../assets/toolIcons/Git.png";
 import AWSLammdaIcon from "../assets/toolIcons/AWSLambda.png";
-import VirtualBoxIcon from "../assets/toolIcons/Virtualbox.png";
-import GDBDebuggerIcon from "../assets/toolIcons/GDBDebugger.png";
-import AgileScrumIcon from "../assets/toolIcons/AgileScrum.png";
-import ExpoIcon from "../assets/toolIcons/ExpoFramework.png";
 import NodeJsIcon from "../assets/toolIcons/NodeJs.png";
 import FirebaseIcon from "../assets/toolIcons/Firebase.png";
-import FigmaIcon from "../assets/toolIcons/Figma.png";
-import Py4WebIcon from "../assets/toolIcons/Py4Web.png";
 import VueJsIcon from "../assets/toolIcons/VueJs.png";
+import ExpoIcon from "../assets/toolIcons/ExpoFramework.png";
+import GDBDebuggerIcon from "../assets/toolIcons/GDBDebugger.png";
 import AWSIcon from "../assets/toolIcons/AWS.png";
 import GoogleColabIcon from "../assets/toolIcons/GoogleColab.png";
 import JupyterIcon from "../assets/toolIcons/Jupyter.png";
-import Jira from "../assets/toolIcons/Jira.png";
+import VirtualBoxIcon from "../assets/toolIcons/Virtualbox.png";
+import FigmaIcon from "../assets/toolIcons/Figma.png";
+import AgileScrumIcon from "../assets/toolIcons/AgileScrum.png";
+import JiraIcon from "../assets/toolIcons/Jira.png";
+import Py4WebIcon from "../assets/toolIcons/Py4Web.png";
 
 const iconData = [
   { name: "Visual Studio Code", icon: VSCodeIcon },
   { name: "Github", icon: GithubIcon },
   { name: "Git", icon: GitIcon },
   { name: "AWS Lambda", icon: AWSLammdaIcon },
-  { name: "Virtualbox", icon: VirtualBoxIcon },
-  { name: "GDB Debugger", icon: GDBDebuggerIcon },
-  { name: "Agile Scrum Methodology", icon: AgileScrumIcon },
-  { name: "Expo Framework", icon: ExpoIcon },
   { name: "nodeJs", icon: NodeJsIcon },
   { name: "Firebase", icon: FirebaseIcon},
-  { name: "Figma", icon: FigmaIcon },
-  { name: "Py4Web Framework", icon: Py4WebIcon },
   { name: "VueJs", icon: VueJsIcon },
+  { name: "Expo Framework", icon: ExpoIcon },
   { name: "Amazon Web Services", icon: AWSIcon },
+  { name: "GDB Debugger", icon: GDBDebuggerIcon },
   { name: "Google Colab", icon: GoogleColabIcon },
   { name: "Jupyter Notebook", icon: JupyterIcon },
-  { name: "Jira", icon: Jira },
+  { name: "Virtualbox", icon: VirtualBoxIcon },
+  { name: "Figma", icon: FigmaIcon },
+  { name: "Agile Scrum Methodology", icon: AgileScrumIcon },
+  { name: "Jira", icon: JiraIcon },
+  { name: "Py4Web Framework", icon: Py4WebIcon },
 ];
 
 export const ToolsList = () => {

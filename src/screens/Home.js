@@ -92,7 +92,7 @@ export const Home = () => {
               College Clubs/Organizations
             </h1>
             
-            <div className="bullets-container">
+            <div className="multiple-bullets-container">
               <p className={isDarkMode ? 'dark-content' : 'content'}>
                 ⭐UCSC Artificial Intelligence Club
               </p>
@@ -101,6 +101,12 @@ export const Home = () => {
               </p>
               <p className={isDarkMode ? 'dark-content' : 'content'}>
                 ⭐Chinese Student Association
+              </p>
+            </div>
+
+            <div className="bullets-container">
+              <p className={isDarkMode ? 'dark-content' : 'content'}>
+                ⭐UCSC Intramural Sports (Soccer + Volleyball)
               </p>
             </div>
           </div>
