@@ -50,6 +50,10 @@ export const Certifications = () => {
             <h5 className={isDarkMode ? 'dark-title' : 'title'}>
               Graduated with Honors in 3 Years (2020-2023)
             </h5>
+
+            <h6 className={isDarkMode ? 'dark-title' : 'title'}>
+              GPA: 3.76
+            </h6>
             
             <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleDiplomaClick}>My Diploma</button>
           </div>
