@@ -29,6 +29,30 @@
   padding-right: 200px
 }
 
+.bullets-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.multiple-bullets-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.main-bullet {
+  margin-bottom: 15px;
+}
+
+.sub-bullet {
+  margin-left: 20px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+/*Pictures*/
 .me-picture {
   width: 325px;
   height: 450px;
@@ -44,17 +68,24 @@
   height: 200px;
 }
 
-.bullets-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
+.tutor-logo {
+  width: 150px;
+  height: 150px;
 }
 
-.multiple-bullets-container {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 20px;
-  justify-content: center;
+.nozomi-individual {
+  width: 325px;
+  height: 450px;
+}
+
+.baskin-eng {
+  width: 325px;
+  height: 450px;
+}
+
+.nozomi-team {
+  width: 400px;
+  height: 350px;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -68,6 +99,12 @@
 .content {
     color: #333333;
     margin-bottom: 15px;
+}
+
+.content-left {
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .section {
@@ -138,6 +175,12 @@
 .dark-content {
     color: #b9b3b3;
     margin-bottom: 15px;
+}
+
+.dark-content-left {
+    color: #b9b3b3;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 .dark-section {
