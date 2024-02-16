@@ -13,7 +13,7 @@
 }
 
 .text-container {
-  flex: 1;
+  width: 100%;
 }
 
 .flex-text-container {
@@ -93,7 +93,6 @@
 .title {
     color: #000000;
     margin-bottom: 10px;
-    word-wrap: break-word;
 }
 
 .content {
