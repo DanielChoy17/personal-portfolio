@@ -14,9 +14,11 @@ export const Projects = () => {
       <div className="container">
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="text-container">
+            <div className="title-wrapper">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
               Machine Learning Projects (Python - Pandas, NumPy, Pytorch, Scikit-learn, Matplotlib)
             </h1>
+          </div>
             
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
               Customer Churn Prediction
