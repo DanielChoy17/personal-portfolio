@@ -44,7 +44,7 @@ export const Certifications = () => {
             </h1>
 
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
-              University of California, Santa Cruz 🍌🐌
+              University of California, Santa Cruz 🐌
             </h3>
 
             <h5 className={isDarkMode ? 'dark-title' : 'title'}>

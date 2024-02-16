@@ -14,7 +14,6 @@
 
 .text-container {
   flex: 1;
-  padding: 30px;
 }
 
 .flex-text-container {
@@ -102,7 +101,6 @@
 }
 
 .content-left {
-    display: flex;
     color: #333333;
     margin-bottom: 15px;
     text-align: left;
@@ -179,7 +177,6 @@
 }
 
 .dark-content-left {
-    display: flex;
     color: #b9b3b3;
     margin-bottom: 15px;
     text-align: left;
