@@ -93,6 +93,7 @@
 .title {
     color: #000000;
     margin-bottom: 10px;
+    word-wrap: break-word;
 }
 
 .content {
