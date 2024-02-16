@@ -94,6 +94,7 @@
 .title {
     color: #000000;
     margin-bottom: 10px;
+    word-wrap: break-word;
 }
 
 .content {
@@ -170,6 +171,7 @@
 .dark-title {
     color: #ffffff;
     margin-bottom: 10px;
+    word-wrap: break-word;
 }
 
 .dark-content {
