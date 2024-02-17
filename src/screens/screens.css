@@ -13,7 +13,7 @@
 }
 
 .text-container {
-  width: 100%;
+  flex: 1;
 }
 
 .flex-text-container {

@@ -15,7 +15,7 @@ export const Projects = () => {
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
-              Machine Learning Projects (Python - Pandas, NumPy, Pytorch, Scikit-learn, Matplotlib)
+              Machine Learning Projects
             </h1>
             
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
