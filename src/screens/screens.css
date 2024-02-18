@@ -41,12 +41,10 @@
   justify-content: center;
 }
 
-.main-bullet {
+.bullet {
+  list-style-type: disc;
   margin-bottom: 15px;
-}
-
-.sub-bullet {
-  padding-left: 3px;
+  padding-left: 20px;
 }
 
 /*--------------------------------------------------------------------------------------*/
@@ -126,7 +124,7 @@
   }
 
   .button {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px;
     padding: 10px 20px;
     font-size: 16px;
@@ -202,7 +200,7 @@
 }
 
 .dark-button {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 30px;
   padding: 10px 20px;
   font-size: 16px;
