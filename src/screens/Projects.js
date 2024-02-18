@@ -173,11 +173,6 @@ export const Projects = () => {
               front-end of the database is implemented in a C file, which incorporates three C functions 
               that utilize queries to enable seamless interaction with the database. Additionally, one of 
               these C functions makes use of a Stored Function written in pgsql.
-              <ul>
-                <li className="main-bullet">
-                  Project Link: https://gitfront.io/r/DanielChoy17/7L4F2uzDHjuG/Creating-Manipulating-a-Database/
-                </li>
-              </ul>
             </p>
           </div>
         </section>
