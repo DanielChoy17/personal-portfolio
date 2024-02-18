@@ -12,10 +12,10 @@ export const Projects = () => {
 
     return (
       <div className="container">
-        <section className={isDarkMode ? 'dark-section' : 'section'}>
+        {/* <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
-              Machine Learning Projects
+              Machine Learning Projects (Python - Pandas, NumPy, Pytorch, Scikit-learn, Matplotlib)
             </h1>
             
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
@@ -160,7 +160,7 @@ export const Projects = () => {
               </ul>
             </p>
           </div>
-        </section>
+        </section> */}
 
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="text-container">
@@ -169,15 +169,13 @@ export const Projects = () => {
             </h1>
 
             <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+              This project contains SQL scripts to generate and load database tables with data. The 
+              front-end of the database is implemented in a C file, which incorporates three C functions 
+              that utilize queries to enable seamless interaction with the database. Additionally, one of 
+              these C functions makes use of a Stored Function written in pgsql.
               <ul>
                 <li className="main-bullet">
-                  This project contains SQL scripts to generate and load database tables with data. The 
-                  front-end of the database is implemented in a C file, which incorporates three C functions 
-                  that utilize queries to enable seamless interaction with the database. Additionally, one of 
-                  these C functions makes use of a Stored Function written in pgsql.
-                  <ul className="sub-bullet">
-                    <li>Project Link: https://gitfront.io/r/DanielChoy17/7L4F2uzDHjuG/Creating-Manipulating-a-Database/</li>
-                  </ul>
+                  Project Link: https://gitfront.io/r/DanielChoy17/7L4F2uzDHjuG/Creating-Manipulating-a-Database/
                 </li>
               </ul>
             </p>
