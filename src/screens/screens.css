@@ -51,7 +51,6 @@
 
 .bullet {
   list-style-type: disc;
-  margin-bottom: 15px;
   padding-left: 20px;
 }
 
@@ -120,54 +119,76 @@
     padding-bottom: 10px;
   }
   
-  .section::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%; /* Adjust this value to set the starting point of the colored portion */
-    transform: translateX(-50%); /* Center the colored portion */
-    width: 300px; /* Adjust this value to set the length of the colored portion */
-    height: 2px;
-    background-color: #FFA69E;
-  }
+.section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Adjust this value to set the starting point of the colored portion */
+  transform: translateX(-50%); /* Center the colored portion */
+  width: 350px; /* Adjust this value to set the length of the colored portion */
+  height: 2px;
+  background-color: #FFA69E;
+}
 
-  .button {
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    border: 2px solid #316685; /* Border color */
-    color: #316685; /* Text color */
-    background-color: transparent; /* Background color */
-    border-radius: 10px; /* Border radius */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+.button {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #316685; /* Border color */
+  color: #316685; /* Text color */
+  background-color: transparent; /* Background color */
+  border-radius: 10px; /* Border radius */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
   
-    /* Add hover effect */
-    &:hover {
-      background-color: #316685; /* Hover background color */
-      color: #ffffff; /* Hover text color */
-    }
+  /* Add hover effect */
+  &:hover {
+    background-color: #316685; /* Hover background color */
+    color: #ffffff; /* Hover text color */
   }
+}
 
-  @media screen and (max-width: 1150px) {
-    .section {
-      flex-direction: column-reverse;
-    }
+@media screen and (max-width: 1150px) {
+  .section {
+    flex-direction: column-reverse;
+  }
   
-    .flex-text-container {
-      padding-right: 0;
-      padding-left: 0;
-      text-align: center;
-    }
+  .flex-text-container {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
     
-    .picture-container {
-      padding-right: 0;
-      padding-left: 0;
-      text-align: center;
-    }
+  .picture-container {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
   }
+}
+
+.sub-section {
+  display: flex;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  flex-direction: column;
+}
+
+.sub-section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%; /* Adjust this value to set the starting point of the colored portion */
+  transform: translateX(-50%); /* Center the colored portion */
+  width: 200px; /* Adjust this value to set the length of the colored portion */
+  height: 2px;
+  background-color: #316685;
+}
 
 /*--------------------------------------------------------------------------------------*/
 
@@ -202,12 +223,14 @@
     bottom: 0;
     left: 50%; /* Adjust this value to set the starting point of the colored portion */
     transform: translateX(-50%); /* Center the colored portion */
-    width: 300px; /* Adjust this value to set the length of the colored portion */
+    width: 350px; /* Adjust this value to set the length of the colored portion */
     height: 2px;
     background-color: #59c0a8;
 }
 
 .dark-button {
+  width: fit-content;
+  margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 10px 20px;
@@ -246,11 +269,12 @@
 }
 
 /* Rotating Gradient Section Separator */
-/*.dark-section {
+.dark-sub-section {
     text-align: center;
     position: relative;
-    margin-bottom: 80px;
-    padding-bottom: 40px;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
+    flex-direction: column;
   
     &::before {
       content: "";
@@ -258,7 +282,7 @@
       bottom: 0;
       left: 50%; 
       transform: translateX(-50%);
-      width: 700px;
+      width: 200px;
       height: 2px;
       background: linear-gradient(
         60deg,
@@ -280,4 +304,4 @@
     50% {
       background-position: 100% 50%;
     }
-  }*/
+  }

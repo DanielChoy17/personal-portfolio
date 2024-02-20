@@ -18,67 +18,73 @@ export const Projects = () => {
               Machine Learning Projects (Python - Pandas, NumPy, Pytorch, Scikit-learn, Matplotlib)
             </h1>
             
-            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
-              Customer Churn Prediction
-            </h3>
-            <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-              Predicting whether a customer will change telecommunications provider. The training dataset 
-              contains 4250 samples. Each sample contains 19 features and 1 boolean variable "churn" which 
-              indicates the class of the sample.
-            </p>
-            <ul className="bullet">
-                <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-                  Logistic Regression - Accuracy: 86% 
-                </li>
-            </ul>
-            <ul className="bullet">
-                <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-                  Neural Network w/ 6 Hidden Units - Accuracy: 87%
-                </li>
-            </ul>
-            <ul className="bullet">
-                <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-                  Neural Network w/ 40 Hidden Units - Accuracy: 86%
-                </li>
-            </ul>
-            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/9z8EPn8Pc1Ye/Customer-Churn-Prediction/", "_blank")} rel="noopener noreferrer">Project Code</button>
+            <section className={isDarkMode ? 'dark-sub-section' : 'sub-section'}>
+              <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+                Customer Churn Prediction
+              </h3>
+              <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                Predicting whether a customer will change telecommunications provider. The training dataset 
+                contains 4250 samples. Each sample contains 19 features and 1 boolean variable "churn" which 
+                indicates the class of the sample.
+              </p>
+              <ul className="bullet">
+                  <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                    Logistic Regression - Accuracy: 86% 
+                  </li>
+              </ul>
+              <ul className="bullet">
+                  <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                    Neural Network w/ 6 Hidden Units - Accuracy: 87%
+                  </li>
+              </ul>
+              <ul className="bullet">
+                  <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                    Neural Network w/ 40 Hidden Units - Accuracy: 86%
+                  </li>
+              </ul>
+              <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/9z8EPn8Pc1Ye/Customer-Churn-Prediction/", "_blank")} rel="noopener noreferrer">Project Code</button>
+            </section>
 
-            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
-              Classifying Images
-            </h3>
-            <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-              Used the CIFAR-10 dataset which consists of 60000 32x32 colour images in 10 classes, 
-              with 6000 images per class. We used 45,000 images for training, 5,000 images for validation, 
-              and 10,000 images for testing. I created 4 different Convolutional Neural Network Models to try 
-              and classify the images into their correct class.
-            </p>
-            <ul className="bullet">
-                <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-                  4 Different Convolutional Neural Network Models - Best Accuracy: 70%
-                </li>
-            </ul>
-            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/ZuYq9yQ1aHkY/Classifying-Images/", "_blank")} rel="noopener noreferrer">Project Code</button>
-          
-            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
-              Sentiment Analysis/Classification
-            </h3>
-            <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-              Used the Yelp reviews dataset which consists of reviews from Yelp. 
-              The goal was to predict how many stars were given (1-5 stars) given the 
-              Yelp review. To accomplish this, I used a Logistic Regression Model and 
-              a BERT Pre-Trained Transformer Model.
-            </p>
-            <ul className="bullet">
-                <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-                  Logistic Regression Model - Accuracy: 47%
-                </li>
-            </ul>
-            <ul className="bullet">
-                <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-                  BERT Pre-Trained Transformer Model - Accuracy: 56%
-                </li>
-            </ul>
-            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/7JDdGnJ9wru6/Sentiment-Classification/", "_blank")} rel="noopener noreferrer">Project Code</button>
+            <section className={isDarkMode ? 'dark-sub-section' : 'sub-section'}>
+              <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+                Classifying Images
+              </h3>
+              <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                Used the CIFAR-10 dataset which consists of 60000 32x32 colour images in 10 classes, 
+                with 6000 images per class. We used 45,000 images for training, 5,000 images for validation, 
+                and 10,000 images for testing. I created 4 different Convolutional Neural Network Models to try 
+                and classify the images into their correct class.
+              </p>
+              <ul className="bullet">
+                  <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                    4 Different Convolutional Neural Network Models - Best Accuracy: 70%
+                  </li>
+              </ul>
+              <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/ZuYq9yQ1aHkY/Classifying-Images/", "_blank")} rel="noopener noreferrer">Project Code</button>
+            </section>
+
+            <section className={isDarkMode ? 'dark-sub-section' : 'sub-section'}>
+              <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+                Sentiment Analysis/Classification
+              </h3>
+              <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                Used the Yelp reviews dataset which consists of reviews from Yelp. 
+                The goal was to predict how many stars were given (1-5 stars) given the 
+                Yelp review. To accomplish this, I used a Logistic Regression Model and 
+                a BERT Pre-Trained Transformer Model.
+              </p>
+              <ul className="bullet">
+                  <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                    Logistic Regression Model - Accuracy: 47%
+                  </li>
+              </ul>
+              <ul className="bullet">
+                  <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                    BERT Pre-Trained Transformer Model - Accuracy: 56%
+                  </li>
+              </ul>
+              <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/7JDdGnJ9wru6/Sentiment-Classification/", "_blank")} rel="noopener noreferrer">Project Code</button>
+            </section>
 
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
               Stock Prediction
