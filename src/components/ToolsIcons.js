@@ -18,6 +18,7 @@ import VirtualBoxIcon from "../assets/toolIcons/Virtualbox.png";
 import FigmaIcon from "../assets/toolIcons/Figma.png";
 import AgileScrumIcon from "../assets/toolIcons/AgileScrum.png";
 import JiraIcon from "../assets/toolIcons/Jira.png";
+import PostmanIcon from "../assets/toolIcons/Postman.png";
 import Py4WebIcon from "../assets/toolIcons/Py4Web.png";
 
 const iconData = [
@@ -37,6 +38,7 @@ const iconData = [
   { name: "Figma", icon: FigmaIcon },
   { name: "Agile Scrum Methodology", icon: AgileScrumIcon },
   { name: "Jira", icon: JiraIcon },
+  { name: "Postman", icon: PostmanIcon },
   { name: "Py4Web Framework", icon: Py4WebIcon },
 ];
 
