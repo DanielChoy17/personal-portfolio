@@ -40,7 +40,7 @@ const iconData = [
   { name: "Figma", icon: FigmaIcon },
   { name: "Agile Scrum Methodology", icon: AgileScrumIcon },
   { name: "Jira", icon: JiraIcon },
-  { name: "Test-Driven Developement", icon: TDDIcon },
+  { name: "Test-Driven Development", icon: TDDIcon },
   { name: "Postman", icon: PostmanIcon },
   { name: "Pytest", icon: PytestIcon },
   { name: "Py4Web Framework", icon: Py4WebIcon },
