@@ -11,6 +11,7 @@ import DeveloperCertificate from "../assets/documents/AWS Certified Developer - 
 import MetaLogo from "../assets/certificationIcons/MetaLogo.png";
 import MetaCourseOneCertificate from "../assets/documents/Meta Introduction to Back-End Development Certificate.pdf";
 import MetaCourseTwoCertificate from "../assets/documents/Meta Programming in Python.pdf";
+import MetaCourseThreeCertificate from "../assets/documents/Meta Version Control.pdf";
 
 export const Certifications = () => {
     const { isDarkMode } = useDarkMode();
@@ -64,12 +65,41 @@ export const Certifications = () => {
       }
     };
 
+    const handleMetaCourseThreeCertificateClick = () => {
+      const newWindow = window.open(MetaCourseThreeCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
     }, [isDarkMode]);
 
     return (
       <div className="container">
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Version Control
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Meta 💻
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained May 2024
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleMetaCourseThreeCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={MetaLogo} className="meta-logo" alt="Meta"/>
+          </div>
+        </section>
+
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
