@@ -10,8 +10,10 @@ import DeveloperLogo from "../assets/certificationIcons/Developer.png";
 import DeveloperCertificate from "../assets/documents/AWS Certified Developer - Associate Certificate.pdf";
 import MetaLogo from "../assets/certificationIcons/MetaLogo.png";
 import MetaCourseOneCertificate from "../assets/documents/Meta Introduction to Back-End Development Certificate.pdf";
-import MetaCourseTwoCertificate from "../assets/documents/Meta Programming in Python.pdf";
-import MetaCourseThreeCertificate from "../assets/documents/Meta Version Control.pdf";
+import MetaCourseTwoCertificate from "../assets/documents/Meta Programming in Python Certificate.pdf";
+import MetaCourseThreeCertificate from "../assets/documents/Meta Version Control Certificate.pdf";
+import JenkinsLogo from "../assets/certificationIcons/JenkinsLogo.png";
+import JenkinsCertificate from "../assets/documents/Udemy Jenkins Certificate.pdf";
 
 export const Certifications = () => {
     const { isDarkMode } = useDarkMode();
@@ -72,12 +74,41 @@ export const Certifications = () => {
       }
     };
 
+    const handleJenkinsCertificateClick = () => {
+      const newWindow = window.open(JenkinsCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    }
+
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
     }, [isDarkMode]);
 
     return (
       <div className="container">
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              CI/CD with Jenkins using Pipelines and Docker
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Udemy Course by Edward Viaene ⛎
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained May 2024
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleJenkinsCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={JenkinsLogo} className="jenkins-logo" alt="Jenkins"/>
+          </div>
+        </section>
+
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
