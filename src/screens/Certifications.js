@@ -14,6 +14,7 @@ import MetaCourseTwoCertificate from "../assets/documents/Meta Programming in Py
 import MetaCourseThreeCertificate from "../assets/documents/Meta Version Control Certificate.pdf";
 import JenkinsLogo from "../assets/certificationIcons/JenkinsLogo.png";
 import JenkinsCertificate from "../assets/documents/Udemy Jenkins Certificate.pdf";
+import MetaCourseFourCertificate from "../assets/documents/Meta Introduction to Databases for Back-End Development Certificate.pdf"
 
 export const Certifications = () => {
     const { isDarkMode } = useDarkMode();
@@ -81,12 +82,41 @@ export const Certifications = () => {
       }
     }
 
+    const handleMetaCourseFourCertificateClick = () => {
+      const newWindow = window.open(MetaCourseFourCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
     }, [isDarkMode]);
 
     return (
       <div className="container">
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Introduction to Databases for Back-End Development
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Meta 💻
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained June 2024
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleMetaCourseFourCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={MetaLogo} className="meta-logo" alt="Meta"/>
+          </div>
+        </section>
+        
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
