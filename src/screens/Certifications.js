@@ -15,6 +15,8 @@ import MetaCourseThreeCertificate from "../assets/documents/Meta Version Control
 import JenkinsLogo from "../assets/certificationIcons/JenkinsLogo.png";
 import JenkinsCertificate from "../assets/documents/Udemy Jenkins Certificate.pdf";
 import MetaCourseFourCertificate from "../assets/documents/Meta Introduction to Databases for Back-End Development Certificate.pdf"
+import DeepLearningAILogo from "../assets/certificationIcons/DeepLearningAILogo.png";
+import GenerativeAICertificate from "../assets/documents/Generative AI with Large Language Models Certificate.pdf";
 
 export const Certifications = () => {
     const { isDarkMode } = useDarkMode();
@@ -89,12 +91,41 @@ export const Certifications = () => {
       }
     };
 
+    const handleGenerativeAICertificateClick = () => {
+      const newWindow = window.open(GenerativeAICertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
     }, [isDarkMode]);
 
     return (
       <div className="container">
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Generative AI with Large Language Models
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              AWS ☁️ + DeepLearning.AI 👾
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained August 2024
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGenerativeAICertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={DeepLearningAILogo} className="deeplearningai-logo" alt="DeepLearningAI"/>
+          </div>
+        </section>
+        
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
