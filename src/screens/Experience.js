@@ -3,6 +3,7 @@ import "./screens.css";
 import { useDarkMode } from "../context/DarkModeContext";
 import { Socials } from "../components/socials/Socials";
 
+import AtlasLogo from "../assets/experienceIcons/Atlas.png";
 import TutorLogo from "../assets/experienceIcons/Tutor.png";
 import NozomiIndividual from "../assets/experienceIcons/NozomiIndividual.JPG";
 import BaskinEng from "../assets/experienceIcons/BaskinEng.JPG";
@@ -20,6 +21,34 @@ export const Experience = () => {
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Software Engineer 1
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Atlas Technical Consultants
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              December 2024 - Present
+            </h5>
+
+            <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+              <ul>
+                <li className="main-bullet">Wrote code for both front-end and back-end (full-stack developer role).</li>
+                <li className="main-bullet">Optimized applications for security, performance, and operation on various devices.</li>
+                <li className="main-bullet">Designed and implemented data storage solutions while ensuring data integrity and security.</li>
+              </ul>
+            </p>
+          </div>
+
+          <div className="picture-container">
+            <img src={AtlasLogo} className="atlas-logo" alt="Atlas"/>
+          </div>
+        </section>
+
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
               Python and C++ Tutor
             </h1>
 
@@ -30,6 +59,14 @@ export const Experience = () => {
             <h5 className={isDarkMode ? 'dark-title' : 'title'}>
               October 2023 - Present
             </h5>
+
+            <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+              <ul>
+                <li className="main-bullet">
+                  Helped students with their programming assignments and understand concepts for their class.
+                </li>
+              </ul>
+            </p>
           </div>
 
           <div className="picture-container">

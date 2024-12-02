@@ -23,7 +23,6 @@ import PostmanIcon from "../assets/toolIcons/Postman.png";
 import PytestIcon from "../assets/toolIcons/Pytest.png";
 import JenkinsIcon from "../assets/certificationIcons/JenkinsLogo.png";
 import DockerIcon from "../assets/toolIcons/Docker.png";
-import JFrogIcon from "../assets/toolIcons/JFrog.png";
 import SonarQubeIcon from "../assets/toolIcons/SonarQube.png";
 import Py4WebIcon from "../assets/toolIcons/Py4Web.png";
 
@@ -49,7 +48,6 @@ const iconData = [
   { name: "Pytest", icon: PytestIcon },
   { name: "Jenkins", icon: JenkinsIcon },
   { name: "Docker", icon: DockerIcon },
-  { name: "JFrog Artifactory", icon: JFrogIcon },
   { name: "SonarQube", icon: SonarQubeIcon },
   { name: "Py4Web Framework", icon: Py4WebIcon },
 ];
