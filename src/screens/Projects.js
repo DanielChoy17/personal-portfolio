@@ -85,23 +85,40 @@ export const Projects = () => {
               </ul>
               <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/7JDdGnJ9wru6/Sentiment-Classification/", "_blank")} rel="noopener noreferrer">Project Code</button>
             </section>
+            <section className={isDarkMode ? 'dark-sub-section' : 'sub-section'}>
+              <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+                Stock Prediction
+              </h3>
+              <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                Used the Yahoo Finance library in Python to obtain the data for the S&P 500. 
+                Using this data, the goal was to predict the Average Stock Price (the average of the 
+                open and close values) for a given day using a specific amount of lookback which is the number 
+                of days prior that we are going to lookback and use as data. In this project, we used 25 days for 
+                our lookback. I used a Long Short-Term Memory Recurrent Neural Network to achieve this task.
+              </p>
+              <ul className="bullet">
+                  <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
+                    Long Short-Term Memory Recurrent Neural Network
+                  </li>
+              </ul>
+              <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/gncTPpkdXqRT/Stock-Prediction/", "_blank")} rel="noopener noreferrer">Project Code</button>
+            </section>
 
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
-              Stock Prediction
+              Generative AI Dialogue Summarization 
             </h3>
             <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-              Used the Yahoo Finance library in Python to obtain the data for the S&P 500. 
-              Using this data, the goal was to predict the Average Stock Price (the average of the 
-              open and close values) for a given day using a specific amount of lookback which is the number 
-              of days prior that we are going to lookback and use as data. In this project, we used 25 days for 
-              our lookback. I used a Long Short-Term Memory Recurrent Neural Network to achieve this task.
+              Conducted dialogue summarization with FLAN-T5, explored effects of input text on model output, and 
+              performed prompt engineering. Fine-tuned FLAN-T5 for enhanced results using full fine-tuning and Parameter 
+              Efficient Fine-Tuning (PEFT), evaluated with ROUGE metrics. Additionally, fine-tuned FLAN-T5 with
+              Proximal Policy Optimization (PPO) and PEFT to reduce toxicity using Meta AI's hate speech reward model.
             </p>
             <ul className="bullet">
                 <li className={isDarkMode ? 'dark-content-left' : 'content-left'}>
-                  Long Short-Term Memory Recurrent Neural Network
+                  FLAN-T5 | PPO | PEFT | Meta AI's RoBERTa-based Hate Speech Model | ROUGE Metrics
                 </li>
             </ul>
-            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://gitfront.io/r/DanielChoy17/gncTPpkdXqRT/Stock-Prediction/", "_blank")} rel="noopener noreferrer">Project Code</button>
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={() => window.open("https://github.com/DanielChoy17/Dialogue-Summarization-Model-Fine-Tuning-for-Toxicity-Reduction-Using-FLAN-T5-and-PPO", "_blank")} rel="noopener noreferrer">Project Code</button>
           </div>
         </section>
 
