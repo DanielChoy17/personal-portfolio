@@ -25,7 +25,17 @@
 .picture-container {
   flex: 1;
   padding-left: 10px;
-  padding-right: 200px
+  padding-right: 200px;
+}
+
+.two-picture-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.individual-picture {
+  flex: 1;
 }
 
 .bullets-container {
@@ -91,8 +101,18 @@
   height: 190px;
 }
 
+.github-logo {
+  width: 190px;
+  height: 190px;
+}
+
 .atlas-logo {
-  width: 350px;
+  width: 150px;
+  height: 70px;
+}
+
+.atlas-team {
+  width: 250px;
   height: 180px;
 }
 

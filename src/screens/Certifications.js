@@ -17,6 +17,9 @@ import JenkinsCertificate from "../assets/documents/Udemy Jenkins Certificate.pd
 import MetaCourseFourCertificate from "../assets/documents/Meta Introduction to Databases for Back-End Development Certificate.pdf"
 import DeepLearningAILogo from "../assets/certificationIcons/DeepLearningAILogo.png";
 import GenerativeAICertificate from "../assets/documents/Generative AI with Large Language Models Certificate.pdf";
+import GitHubLogo from "../assets/toolIcons/Github.png";
+import GitHubCourseOneCertificate from "../assets/documents/Learning Git and GitHub Certificate.pdf";
+import GitHubCourseTwoCertificate from "../assets/documents/GitHub Issues and Projects for Teams Certificate.pdf";
 
 export const Certifications = () => {
     const { isDarkMode } = useDarkMode();
@@ -98,12 +101,70 @@ export const Certifications = () => {
       }
     };
 
+    const handleGitHubCourseOneCertificateClick = () => {
+      const newWindow = window.open(GitHubCourseOneCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
+    const handleGitHubCourseTwoCertificateClick = () => {
+      const newWindow = window.open(GitHubCourseTwoCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
     }, [isDarkMode]);
 
     return (
       <div className="container">
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              GitHub Issues and Projects for Teams
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              GitHub 😺
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained February 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubCourseTwoCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Learning Git and GitHub
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              GitHub 😺
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained February 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubCourseOneCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>

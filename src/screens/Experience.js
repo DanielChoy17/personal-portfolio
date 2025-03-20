@@ -4,6 +4,7 @@ import { useDarkMode } from "../context/DarkModeContext";
 import { Socials } from "../components/socials/Socials";
 
 import AtlasLogo from "../assets/experienceIcons/Atlas.png";
+import AtlasTeam from "../assets/experienceIcons/AtlasTeam.JPG";
 import TutorLogo from "../assets/experienceIcons/Tutor.png";
 import NozomiIndividual from "../assets/experienceIcons/NozomiIndividual.JPG";
 import BaskinEng from "../assets/experienceIcons/BaskinEng.JPG";
@@ -41,8 +42,16 @@ export const Experience = () => {
             </p>
           </div>
 
-          <div className="picture-container">
-            <img src={AtlasLogo} className="atlas-logo" alt="Atlas"/>
+          <div className="picure-container">
+            <div className="two-picture-container">
+              <div className="individual-picture">
+                <img src={AtlasLogo} className="atlas-logo" alt="Atlas"/>
+              </div>
+
+              <div className="individual-picture">
+                <img src={AtlasTeam} className="atlas-team" alt="Atlas"/>
+              </div>
+            </div>
           </div>
         </section>
 
