@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.d83e35d8.css",
-    "main.js": "/personal-portfolio/static/js/main.afa5a8a9.js",
+    "main.css": "/personal-portfolio/static/css/main.8582ebf6.css",
+    "main.js": "/personal-portfolio/static/js/main.c3ce4c0e.js",
     "static/media/MePicture.jpg": "/personal-portfolio/static/media/MePicture.de02e7e7e8c6ce2665b8.jpg",
     "static/media/Diploma - Daniel Choy.pdf": "/personal-portfolio/static/media/Diploma - Daniel Choy.61173ec56a51d4ef3e8f.pdf",
+    "static/media/AtlasTeam.JPG": "/personal-portfolio/static/media/AtlasTeam.51b572cc88c80953bb8a.JPG",
     "static/media/BaskinEng.JPG": "/personal-portfolio/static/media/BaskinEng.2d922df48c89bd17fa2c.JPG",
     "static/media/NozomiTeam.JPG": "/personal-portfolio/static/media/NozomiTeam.c154a1e60f1326b24f50.JPG",
     "static/media/NozomiIndividual.JPG": "/personal-portfolio/static/media/NozomiIndividual.4e5057d180cc4ba0ac81.JPG",
@@ -13,6 +14,7 @@
     "static/media/Meta Programming in Python Certificate.pdf": "/personal-portfolio/static/media/Meta Programming in Python Certificate.6e6f747af415a03eb55d.pdf",
     "static/media/Meta Version Control Certificate.pdf": "/personal-portfolio/static/media/Meta Version Control Certificate.2627d4e429c075c31178.pdf",
     "static/media/Udemy Jenkins Certificate.pdf": "/personal-portfolio/static/media/Udemy Jenkins Certificate.ebe0b24f926dcf757a4f.pdf",
+    "static/media/GitHub Issues and Projects for Teams Certificate.pdf": "/personal-portfolio/static/media/GitHub Issues and Projects for Teams Certificate.37e77b129884f5e979ee.pdf",
     "static/media/Py4Web.png": "/personal-portfolio/static/media/Py4Web.9a1a34b0e9f8225c3822.png",
     "static/media/Python.png": "/personal-portfolio/static/media/Python.dea924d737bb84eb9ce3.png",
     "static/media/Resume - Daniel Choy.pdf": "/personal-portfolio/static/media/Resume - Daniel Choy.c9ca299fa59c46f22e7a.pdf",
@@ -23,6 +25,7 @@
     "static/media/CPlusPlus.png": "/personal-portfolio/static/media/CPlusPlus.848ffa125321bf630b64.png",
     "static/media/GoogleColab.png": "/personal-portfolio/static/media/GoogleColab.81280582e17945c121b6.png",
     "static/media/Jupyter.png": "/personal-portfolio/static/media/Jupyter.e0e612fd290b62ecd44a.png",
+    "static/media/Learning Git and GitHub Certificate.pdf": "/personal-portfolio/static/media/Learning Git and GitHub Certificate.75156bb8847b8b32dbf8.pdf",
     "static/media/Firebase.png": "/personal-portfolio/static/media/Firebase.cb1506d84781df93228d.png",
     "static/media/MetaLogo.png": "/personal-portfolio/static/media/MetaLogo.132c932681b90f7d6a12.png",
     "static/media/Tutor.png": "/personal-portfolio/static/media/Tutor.1da2ab18b1a709197026.png",
@@ -52,11 +55,11 @@
     "static/media/HTML.png": "/personal-portfolio/static/media/HTML.ff3cf75e3b7cbb4ea77c.png",
     "static/media/Haskell.png": "/personal-portfolio/static/media/Haskell.0a3c1e66b4f065d744f5.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.d83e35d8.css.map": "/personal-portfolio/static/css/main.d83e35d8.css.map",
-    "main.afa5a8a9.js.map": "/personal-portfolio/static/js/main.afa5a8a9.js.map"
+    "main.8582ebf6.css.map": "/personal-portfolio/static/css/main.8582ebf6.css.map",
+    "main.c3ce4c0e.js.map": "/personal-portfolio/static/js/main.c3ce4c0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d83e35d8.css",
-    "static/js/main.afa5a8a9.js"
+    "static/css/main.8582ebf6.css",
+    "static/js/main.c3ce4c0e.js"
   ]
 }
