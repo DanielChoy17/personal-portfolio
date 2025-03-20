@@ -128,7 +128,7 @@ export const Certifications = () => {
             </h1>
 
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
-              GitHub 😺
+              Linkedin Learning Course by Teresa Luz Miller 📚
             </h3>
 
             <h5 className={isDarkMode ? 'dark-title' : 'title'}>
@@ -150,7 +150,7 @@ export const Certifications = () => {
             </h1>
 
             <h3 className={isDarkMode ? 'dark-title' : 'title'}>
-              GitHub 😺
+              Linkedin Learning Course by Ray Villalobos 📚
             </h3>
 
             <h5 className={isDarkMode ? 'dark-title' : 'title'}>
