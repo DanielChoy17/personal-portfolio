@@ -6,7 +6,6 @@ import { Experience } from "./screens/Experience";
 import { Projects } from "./screens/Projects";
 import { Certifications } from './screens/Certifications';
 import { Skills } from './screens/Skills';
-// import { APIs } from './screens/APIs';
 import { DarkModeProvider } from "./context/DarkModeContext";
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/certifications" element={<Certifications/>}/>
           <Route path="/skills" element={<Skills/>}/>
-          {/* <Route path="/funwithapis" element={<APIs/>}/> */}
         </Routes>
       </DarkModeProvider>
     </>
