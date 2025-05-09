@@ -35,7 +35,7 @@ export const Experience = () => {
 
             <p className={isDarkMode ? 'dark-content-left' : 'content-left'}>
               <ul>
-                <li className="main-bullet">Developed and maintained RESTful API microservices, built new apps, and implemented new features in existing web apps..</li>
+                <li className="main-bullet">Developed and maintained RESTful API microservices, built new apps, and implemented new features in existing web apps.</li>
                 <li className="main-bullet">Performed unit testing using PHPUnit and conducted QA to ensure functionality, security, and performance across devices.</li>
                 <li className="main-bullet">Designed and implemented relational databases, ensuring data integrity, secure storage, and efficient access patterns.</li>
               </ul>
