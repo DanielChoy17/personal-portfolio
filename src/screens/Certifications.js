@@ -20,6 +20,12 @@ import GenerativeAICertificate from "../assets/documents/Generative AI with Larg
 import GitHubLogo from "../assets/toolIcons/Github.png";
 import GitHubCourseOneCertificate from "../assets/documents/Learning Git and GitHub Certificate.pdf";
 import GitHubCourseTwoCertificate from "../assets/documents/GitHub Issues and Projects for Teams Certificate.pdf";
+import GitHubCourseThreeCertificate from "../assets/documents/Practical GitHub Actions Certificate.pdf";
+import GitHubCourseFourCertificate from "../assets/documents/Practical GitHub Copilot Certificate.pdf";
+import GitHubCourseFiveCertificate from "../assets/documents/Learning GitHub Codespaces for Enterprise Certificate.pdf";
+import GitHubCourseSixCertificate from "../assets/documents/GitHub Foundations Privacy, Security, and Administration Certificate.pdf";
+import GitHubCourseSevenCertificate from "../assets/documents/Benefits of GitHub Community Certificate.pdf";
+import GitHubLearningPathCertificate from "../assets/documents/Prepare for the GitHub Foundations Certification Learning Path Certificate.pdf";
 
 export const Certifications = () => {
     const { isDarkMode } = useDarkMode();
@@ -115,12 +121,186 @@ export const Certifications = () => {
       }
     };
 
+    const handleGitHubCourseThreeCertificateClick = () => {
+      const newWindow = window.open(GitHubCourseThreeCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
+    const handleGitHubCourseFourCertificateClick = () => {
+      const newWindow = window.open(GitHubCourseFourCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
+    const handleGitHubCourseFiveCertificateClick = () => {
+      const newWindow = window.open(GitHubCourseFiveCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
+    const handleGitHubCourseSixCertificateClick = () => {
+      const newWindow = window.open(GitHubCourseSixCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
+    const handleGitHubCourseSevenCertificateClick = () => {
+      const newWindow = window.open(GitHubCourseSevenCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
+    const handleGitHubLearningPathCertificateClick = () => {
+      const newWindow = window.open(GitHubLearningPathCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
     }, [isDarkMode]);
 
     return (
       <div className="container">
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Prepare for the GitHub Foundations Certification
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Linkedin Learning Path in Partnership with GitHub 📚
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained June 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubLearningPathCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Benefits of GitHub Community
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Linkedin Learning Course by Ray Villalobos 📚
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained June 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubCourseSevenCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+        
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              GitHub Foundations: Privacy, Security, and Administration
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Linkedin Learning Course by Noah Gift 📚
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained May 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubCourseSixCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Learning GitHub Codespaces for Enterprise
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Linkedin Learning Course by Fikayo Adepoju 📚
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained May 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubCourseFiveCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+        
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Practical GitHub Copilot
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Linkedin Learning Course by Ray Villalobos 📚
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained May 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubCourseFourCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+        
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              Practical GitHub Actions
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              Linkedin Learning Course by Ray Villalobos 📚
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained May 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubCourseThreeCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubLogo} className="github-logo" alt="GitHub"/>
+          </div>
+        </section>
+
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
