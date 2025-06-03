@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.8b364466.css",
-    "main.js": "/personal-portfolio/static/js/main.f2b7cbc8.js",
+    "main.js": "/personal-portfolio/static/js/main.a7c9f6a1.js",
     "static/media/MePicture.jpg": "/personal-portfolio/static/media/MePicture.de02e7e7e8c6ce2665b8.jpg",
     "static/media/Diploma - Daniel Choy.pdf": "/personal-portfolio/static/media/Diploma - Daniel Choy.61173ec56a51d4ef3e8f.pdf",
     "static/media/AtlasTeam.JPG": "/personal-portfolio/static/media/AtlasTeam.51b572cc88c80953bb8a.JPG",
@@ -26,7 +26,13 @@
     "static/media/CPlusPlus.png": "/personal-portfolio/static/media/CPlusPlus.848ffa125321bf630b64.png",
     "static/media/GoogleColab.png": "/personal-portfolio/static/media/GoogleColab.81280582e17945c121b6.png",
     "static/media/Jupyter.png": "/personal-portfolio/static/media/Jupyter.e0e612fd290b62ecd44a.png",
+    "static/media/Prepare for the GitHub Foundations Certification Learning Path Certificate.pdf": "/personal-portfolio/static/media/Prepare for the GitHub Foundations Certification Learning Path Certificate.62bf80e451d728459a63.pdf",
+    "static/media/Learning GitHub Codespaces for Enterprise Certificate.pdf": "/personal-portfolio/static/media/Learning GitHub Codespaces for Enterprise Certificate.1357b650ce2dda349af0.pdf",
+    "static/media/Practical GitHub Copilot Certificate.pdf": "/personal-portfolio/static/media/Practical GitHub Copilot Certificate.af518342531e8f846561.pdf",
+    "static/media/GitHub Foundations Privacy, Security, and Administration Certificate.pdf": "/personal-portfolio/static/media/GitHub Foundations Privacy, Security, and Administration Certificate.0623d67f8fd19c84a452.pdf",
     "static/media/Learning Git and GitHub Certificate.pdf": "/personal-portfolio/static/media/Learning Git and GitHub Certificate.75156bb8847b8b32dbf8.pdf",
+    "static/media/Benefits of GitHub Community Certificate.pdf": "/personal-portfolio/static/media/Benefits of GitHub Community Certificate.b7b2bce2b982da3894e4.pdf",
+    "static/media/Practical GitHub Actions Certificate.pdf": "/personal-portfolio/static/media/Practical GitHub Actions Certificate.085346ba165e318c1f43.pdf",
     "static/media/Firebase.png": "/personal-portfolio/static/media/Firebase.cb1506d84781df93228d.png",
     "static/media/MetaLogo.png": "/personal-portfolio/static/media/MetaLogo.132c932681b90f7d6a12.png",
     "static/media/Tutor.png": "/personal-portfolio/static/media/Tutor.1da2ab18b1a709197026.png",
@@ -59,10 +65,10 @@
     "static/media/Haskell.png": "/personal-portfolio/static/media/Haskell.0a3c1e66b4f065d744f5.png",
     "index.html": "/personal-portfolio/index.html",
     "main.8b364466.css.map": "/personal-portfolio/static/css/main.8b364466.css.map",
-    "main.f2b7cbc8.js.map": "/personal-portfolio/static/js/main.f2b7cbc8.js.map"
+    "main.a7c9f6a1.js.map": "/personal-portfolio/static/js/main.a7c9f6a1.js.map"
   },
   "entrypoints": [
     "static/css/main.8b364466.css",
-    "static/js/main.f2b7cbc8.js"
+    "static/js/main.a7c9f6a1.js"
   ]
 }
