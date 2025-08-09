@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.8b364466.css",
-    "main.js": "/personal-portfolio/static/js/main.a7c9f6a1.js",
+    "main.css": "/personal-portfolio/static/css/main.b45f6681.css",
+    "main.js": "/personal-portfolio/static/js/main.dca29384.js",
     "static/media/MePicture.jpg": "/personal-portfolio/static/media/MePicture.de02e7e7e8c6ce2665b8.jpg",
     "static/media/Diploma - Daniel Choy.pdf": "/personal-portfolio/static/media/Diploma - Daniel Choy.61173ec56a51d4ef3e8f.pdf",
+    "static/media/GitHubFoundationsBadge.png": "/personal-portfolio/static/media/GitHubFoundationsBadge.d3fdf6aaa449f6865740.png",
     "static/media/AtlasTeam.JPG": "/personal-portfolio/static/media/AtlasTeam.51b572cc88c80953bb8a.JPG",
+    "static/media/GitHub Foundations Certificate.pdf": "/personal-portfolio/static/media/GitHub Foundations Certificate.eca1cf2b0af4c2c0fc42.pdf",
     "static/media/BaskinEng.JPG": "/personal-portfolio/static/media/BaskinEng.2d922df48c89bd17fa2c.JPG",
     "static/media/NozomiTeam.JPG": "/personal-portfolio/static/media/NozomiTeam.c154a1e60f1326b24f50.JPG",
     "static/media/NozomiIndividual.JPG": "/personal-portfolio/static/media/NozomiIndividual.4e5057d180cc4ba0ac81.JPG",
@@ -15,7 +17,7 @@
     "static/media/Meta Version Control Certificate.pdf": "/personal-portfolio/static/media/Meta Version Control Certificate.2627d4e429c075c31178.pdf",
     "static/media/PHPUnit.png": "/personal-portfolio/static/media/PHPUnit.ba794a6b4c35e92f4211.png",
     "static/media/Udemy Jenkins Certificate.pdf": "/personal-portfolio/static/media/Udemy Jenkins Certificate.ebe0b24f926dcf757a4f.pdf",
-    "static/media/Resume - Daniel Choy.pdf": "/personal-portfolio/static/media/Resume - Daniel Choy.cac2d3ca1641a82734fd.pdf",
+    "static/media/Resume - Daniel Choy.pdf": "/personal-portfolio/static/media/Resume - Daniel Choy.7bb163cdf374522ef9ed.pdf",
     "static/media/GitHub Issues and Projects for Teams Certificate.pdf": "/personal-portfolio/static/media/GitHub Issues and Projects for Teams Certificate.37e77b129884f5e979ee.pdf",
     "static/media/Py4Web.png": "/personal-portfolio/static/media/Py4Web.9a1a34b0e9f8225c3822.png",
     "static/media/Python.png": "/personal-portfolio/static/media/Python.dea924d737bb84eb9ce3.png",
@@ -64,11 +66,11 @@
     "static/media/HTML.png": "/personal-portfolio/static/media/HTML.ff3cf75e3b7cbb4ea77c.png",
     "static/media/Haskell.png": "/personal-portfolio/static/media/Haskell.0a3c1e66b4f065d744f5.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.8b364466.css.map": "/personal-portfolio/static/css/main.8b364466.css.map",
-    "main.a7c9f6a1.js.map": "/personal-portfolio/static/js/main.a7c9f6a1.js.map"
+    "main.b45f6681.css.map": "/personal-portfolio/static/css/main.b45f6681.css.map",
+    "main.dca29384.js.map": "/personal-portfolio/static/js/main.dca29384.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b364466.css",
-    "static/js/main.a7c9f6a1.js"
+    "static/css/main.b45f6681.css",
+    "static/js/main.dca29384.js"
   ]
 }
