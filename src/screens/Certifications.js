@@ -26,6 +26,8 @@ import GitHubCourseFiveCertificate from "../assets/documents/Learning GitHub Cod
 import GitHubCourseSixCertificate from "../assets/documents/GitHub Foundations Privacy, Security, and Administration Certificate.pdf";
 import GitHubCourseSevenCertificate from "../assets/documents/Benefits of GitHub Community Certificate.pdf";
 import GitHubLearningPathCertificate from "../assets/documents/Prepare for the GitHub Foundations Certification Learning Path Certificate.pdf";
+import GitHubFoundationsCertificate from "../assets/documents/GitHub Foundations Certificate.pdf";
+import GitHubFoundationsBadge from "../assets/certificationIcons/GitHubFoundationsBadge.png";
 
 export const Certifications = () => {
     const { isDarkMode } = useDarkMode();
@@ -163,12 +165,41 @@ export const Certifications = () => {
       }
     };
 
+    const handleGitHubFoundationsCertificateClick = () => {
+      const newWindow = window.open(GitHubFoundationsCertificate, '_blank');
+      if (newWindow) {
+        newWindow.opener = null;
+      }
+    };
+
     useEffect(() => {
       document.body.style.backgroundColor = isDarkMode ? '#000000' : '#ffffff';
     }, [isDarkMode]);
 
     return (
       <div className="container">
+        <section className={isDarkMode ? 'dark-section' : 'section'}>
+          <div className="flex-text-container">
+            <h1 className={isDarkMode ? 'dark-title' : 'title'}>
+              GitHub Foundations
+            </h1>
+
+            <h3 className={isDarkMode ? 'dark-title' : 'title'}>
+              GitHub 📚
+            </h3>
+
+            <h5 className={isDarkMode ? 'dark-title' : 'title'}>
+              Obtained July 2025
+            </h5>
+            
+            <button className={isDarkMode ? 'dark-button' : 'button'} onClick={handleGitHubFoundationsCertificateClick}>My Certificate</button>
+          </div>
+
+          <div className="picture-container">
+            <img src={GitHubFoundationsBadge} className="github-badge" alt="GitHub"/>
+          </div>
+        </section>
+        
         <section className={isDarkMode ? 'dark-section' : 'section'}>
           <div className="flex-text-container">
             <h1 className={isDarkMode ? 'dark-title' : 'title'}>
